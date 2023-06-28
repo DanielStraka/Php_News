@@ -1,0 +1,647 @@
+@media only screen and (min-width: 1111px){
+    body{
+        font-family: "Arial";
+    }
+    header{
+        border: solid 1px black;
+        background-color: black;
+        padding: 1%;
+    }
+    .odkazy{
+        margin-left: 1%;
+        
+        color: white;
+        text-decoration: none;
+        border: solid black;
+    }
+    .odkazy:hover{
+        color: black;
+        border: solid  white;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .main{
+        margin: 1%;
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+    .underHeadline{
+        color: rgb(150, 150, 150);
+        line-height: 1%;
+        margin-bottom: 20px;
+    }
+    .head{
+        border-bottom: 3px black solid;
+        margin: 1%;
+    }
+    .Title{
+        font-size: 45px;
+        line-height: 0.1;
+    }
+    .article{
+        margin-bottom: 5%;
+        border:solid 1px rgb(168, 168, 168);
+        background-color: rgb(250, 250, 250);
+        padding: 3%;
+    }
+    .articleTitle{
+        color: rgb(0, 53, 105);
+        font-size: 40px;
+    }
+    .articleHREF{
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+    }
+    .articleHREF:hover{
+        text-decoration: underline;
+    }
+    .detailHREF{
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+        margin-left: 90%;
+    }
+    .detailHREF:hover{
+        text-decoration: underline;
+    }
+    .CategoryAuthor{
+        border:solid 1px rgb(168, 168, 168);
+        background-color: rgb(250, 250, 250);
+        border-radius: 10px;
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        text-align: center;
+        text-align:top;
+        display: inline-block;
+        margin-top: 2%;
+        margin-left: 2%;
+    
+    
+    }
+    .CategoryAuthorA{
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+    }
+    .CategoryAuthorA:hover{
+        text-decoration: underline;
+    }
+    .AdministrationMain{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:50% 50%;
+        margin: 1%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .TableAuthor{
+        grid-column: 1;
+        grid-row: 1;
+        padding-left: 2%;
+    
+    }
+    .TableCategory{
+        grid-column: 2;
+        grid-row: 1;
+        padding-left: 2%;
+        
+    }
+    .TableArticle{
+        margin-top: 5%;
+        grid-column: span 2;
+        grid-row: 2;
+        padding-left: 1%;
+     
+    }    
+    table{
+        
+        margin-top: 15px;
+        text-align: left;
+        border-collapse:collapse;
+        margin-bottom: 20px;
+    }
+    th{
+        text-align: center;
+        border: solid 3px black;
+        color: white;
+        background-color: black;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    td{
+        padding: 15px;
+        color: rgb(116, 115, 115);
+        border: 3px solid rgb(168, 168, 168);
+    }
+    .ahrefAdministration{
+        padding-bottom: 3px;
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+    }
+    .ahrefAdministration:hover{
+        text-decoration: underline;
+    }
+    .addahref{
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+    }
+    .deleteahref{
+        text-decoration: none;
+        color: rgb(255, 51, 51);
+    }
+    .addahref:hover , .deleteahref:hover{
+        text-decoration: underline;
+    }
+    .addform{
+        border-radius: 3%;
+        padding:1%;
+        margin-top: 2%;
+        border:solid 1px rgb(168, 168, 168);
+        background-color: rgb(250, 250, 250);
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    .addformarticle{
+        border-radius: 15px;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding:2%;
+        margin-top: 2%;
+        border:solid 1px rgb(168, 168, 168);
+        background-color: rgb(250, 250, 250);
+    }
+    textarea{
+        resize: none;
+        width: 100%;
+        height: 50%;
+    }
+    .formbutton{
+        text-align: center;
+        margin-top: 1%;
+    
+    }
+    label, input{
+        width: 100%;
+    }
+    .header{
+        color:white;
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+    .header1{
+        color:white;
+        grid-column: 1;
+
+    }
+    .header2{
+        color:white;
+        text-align: right;
+        grid-column: 2;
+    }
+    .login{
+        color: white;
+        text-decoration: none;
+        border: solid black;
+    }
+    .logout{
+        margin-left: 5%;
+        color: rgb(255, 51, 51);;
+        text-decoration: none;
+        border: solid black;
+    }
+    .login:hover , .logout:hover{
+        
+        color: black;
+        border: solid  white;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+}
+@media only screen and (max-width: 1110px ){
+    @media only screen and (min-width: 350px ){
+        body{
+            font-family: "Arial";
+        }
+        header{
+            border: solid 1px black;
+            background-color: black;
+            padding: 1%;
+        }
+        .odkazy{
+            margin-left: 1%;
+            
+            color: white;
+            text-decoration: none;
+            border: solid black;
+        }
+        .odkazy:hover{
+            color: black;
+            border: solid  white;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .main{
+            margin: 1%;
+           
+        }
+        .underHeadline{
+            color: rgb(150, 150, 150);
+            line-height: 1%;
+            margin-bottom: 20px;
+        }
+        .head{
+            border-bottom: 3px black solid;
+            margin: 1%;
+        }
+        .Title{
+            font-size: 45px;
+            line-height: 0.1;
+        }
+        .article{
+            margin-bottom: 5%;
+            border:solid 1px rgb(168, 168, 168);
+            background-color: rgb(250, 250, 250);
+            padding: 2%;
+        }
+        .articleTitle{
+            color: rgb(0, 53, 105);
+            font-size: 40px;
+        }
+        .articleHREF{
+            text-decoration: none;
+            color: rgb(0, 128, 255);
+        }
+        .articleHREF:hover{
+            text-decoration: underline;
+        }
+        .detailHREF{
+            text-decoration: none;
+            color: rgb(0, 128, 255);
+            margin-left: 90%;
+        }
+        .detailHREF:hover{
+            text-decoration: underline;
+        }
+        .CategoryAuthor{
+            border:solid 1px rgb(168, 168, 168);
+            background-color: rgb(250, 250, 250);
+            border-radius: 10px;
+            padding-top: 1%;
+            padding-left: 3%;
+            padding-right: 3%;
+            padding-bottom: 2%;
+            text-align: center;
+            text-align:top;
+            display: inline-block;
+            margin-top: 2%;
+            margin-left: 2%;
+        
+        
+        }
+        .CategoryAuthorA{
+            text-decoration: none;
+            color: rgb(0, 128, 255);
+        }
+        .CategoryAuthorA:hover{
+            text-decoration: underline;
+        }
+        .AdministrationMain{
+         
+            text-align: center
+        }
+        .TableAuthor{
+            padding: 1%;
+        
+        }
+        .TableCategory{
+            padding: 1%;
+            
+        }
+        .TableArticle{
+            padding: 1%;
+         
+        }
+        table{
+            margin-left: auto;  
+            margin-right: auto;  
+            margin-top: 15px;
+            text-align: left;
+            border-collapse:collapse;
+            margin-bottom: 20px;
+        }
+        th{
+            text-align: center;
+            border: solid 3px black;
+            color: white;
+            background-color: black;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        td{
+            padding: 10px;
+            color: rgb(116, 115, 115);
+            border: 3px solid rgb(168, 168, 168);
+        }
+        .ahrefAdministration{
+            padding-bottom: 3px;
+            text-decoration: none;
+            color: rgb(0, 128, 255);
+        }
+        .ahrefAdministration:hover{
+            text-decoration: underline;
+        }
+        .addahref{
+            text-decoration: none;
+            color: rgb(0, 128, 255);
+        }
+        .deleteahref{
+            text-decoration: none;
+            color: rgb(255, 51, 51);
+        }
+        .addahref:hover , .deleteahref:hover{
+            text-decoration: underline;
+        }
+        .addform{
+            border-radius: 3%;
+            padding:1%;
+            margin-top: 2%;
+            border:solid 1px rgb(168, 168, 168);
+            background-color: rgb(250, 250, 250);
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        .addformarticle{
+            border-radius: 15px;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding:2%;
+            margin-top: 2%;
+            border:solid 1px rgb(168, 168, 168);
+            background-color: rgb(250, 250, 250);
+        }
+        textarea{
+            resize: none;
+            width: 100%;
+            height: 10%;
+        }
+        .formbutton{
+            
+            text-align: center;
+            margin-top: 1%;
+            margin-left: 45%;
+            margin-right: 45%;
+        
+        }
+        label{
+            margin-top: 5%;
+        }
+        .header{
+            color:white;
+            display: grid;
+            grid-template-columns: 80% 20%;
+        }
+        .header1{
+            color:white;
+            grid-column: 1;
+    
+        }
+        .header2{
+            color:white;
+            text-align: right;
+            grid-column: 2;
+        }
+        .login{
+            color: white;
+            text-decoration: none;
+            border: solid black;
+        }
+        .logout{
+            margin-left: 5%;
+            color: rgb(255, 51, 51);;
+            text-decoration: none;
+            border: solid black;
+        }
+        .login:hover , .logout:hover{
+            
+            color: black;
+            border: solid  white;
+            background-color: white;
+            border-radius: 5px;
+        }
+        
+    }
+}
+@media only screen and (max-width: 430px){
+    
+    body{
+        font-family: "Arial";
+    }
+    header{
+        border: solid 1px black;
+        background-color: black;
+        text-align: center;
+        padding: 3%;
+    }
+    .odkazy{
+    
+        border: solid black 1px;
+        color: white;
+        text-decoration: none;
+        margin: 20%;
+    }
+    .odkazy:hover{
+        color: black;
+        border: solid  white;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .main{
+        margin: 1%;
+       
+    }
+    .underHeadline{
+        color: rgb(150, 150, 150);
+        line-height: 1%;
+        margin-bottom: 20px;
+    }
+    .head{
+        border-bottom: 3px black solid;
+        margin: 1%;
+    }
+    .Title{
+        font-size: 25px;
+    }
+    .article{
+        margin-bottom: 5%;
+        border:solid 1px rgb(168, 168, 168);
+        background-color: rgb(250, 250, 250);
+        padding: 2%;
+    }
+    .articleTitle{
+        color: rgb(0, 53, 105);
+        font-size: 35px;
+    }
+    .articleHREF{
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+    }
+    .articleHREF:hover{
+        text-decoration: underline;
+    }
+    .detailHREF{
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+        margin-left: 80%;
+    }
+    .detailHREF:hover{
+        text-decoration: underline;
+    }
+    .CategoryAuthor{
+        border:solid 1px rgb(168, 168, 168);
+        background-color: rgb(250, 250, 250);
+        border-radius: 10px;
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 2%;
+        text-align: center;
+        text-align:top;
+        display: inline-block;
+        margin-top: 2%;
+        margin-left: 2%;
+    
+    
+    }
+    .CategoryAuthorA{
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+    }
+    .CategoryAuthorA:hover{
+        text-decoration: underline;
+    }
+    .AdministrationMain{
+     
+        text-align: center
+    }
+    .TableAuthor{
+      
+    
+    }
+    .TableCategory{
+       
+        
+    }
+    .TableArticle{
+      
+     
+    }
+    table{ 
+        text-align: center;
+        border-collapse:collapse;    }
+    th{
+        text-align: center;
+        border: solid 1px black;
+        color: white;
+        background-color: black;
+    }
+    td{
+        color: rgb(116, 115, 115);
+        border: 3px solid rgb(168, 168, 168);
+    }
+    .ahrefAdministration{
+        padding-bottom: 3px;
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+    }
+    .ahrefAdministration:hover{
+        text-decoration: underline;
+    }
+    .addahref{
+        text-decoration: none;
+        color: rgb(0, 128, 255);
+    }
+    .deleteahref{
+        text-decoration: none;
+        color: rgb(255, 51, 51);
+    }
+    .addahref:hover , .deleteahref:hover{
+        text-decoration: underline;
+    }
+    .addform{
+        border-radius: 3%;
+        padding:2%;
+        margin-top: 2%;
+        border:solid 1px rgb(168, 168, 168);
+        background-color: rgb(250, 250, 250);
+    }
+    .formbutton{
+        
+        text-align: center;
+        margin-top: 1%;
+    
+    }
+    input, label{
+        margin: 1%;
+        width: 100%;
+    }
+    .addformarticle{
+        border-radius: 15px;
+        padding:2%;
+        margin-top: 2%;
+        border:solid 1px rgb(168, 168, 168);
+        background-color: rgb(250, 250, 250);
+    }
+    textarea{
+        resize: none;
+        width: 100%;
+        height: 10%;
+    }
+    .formbutton{
+        
+        text-align: center;
+        margin-top: 1%;
+        margin-left: 0;
+        margin-right: 0;
+    
+    }
+    label{
+        margin-top: 5%;
+    }
+    .header{
+        color:white;
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+    .header1{
+        color:white;
+        grid-column: 1;
+
+    }
+    .header2{
+        color:white;
+        text-align: right;
+        grid-column: 2;
+    }
+    .login{
+        color: white;
+        text-decoration: none;
+        border: solid black;
+    }
+    .logout{
+        margin-left: 5%;
+        color: rgb(255, 51, 51);;
+        text-decoration: none;
+        border: solid black;
+    }
+    .login:hover , .logout:hover{
+        
+        color: black;
+        border: solid  white;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+}
+
+
